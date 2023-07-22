@@ -23,6 +23,8 @@ wget -q -O /usr/bin/menu-dns "https://raw.githubusercontent.com/hokagelegend2023
 wget -q -O /usr/bin/info "https://raw.githubusercontent.com/hokagelegend2023/beta/main/update/info.sh" && chmod +x /usr/bin/info
 wget -q -O /usr/bin/mspeed "https://raw.githubusercontent.com/hokagelegend2023/beta/main/update/menu-speedtest.sh" && chmod +x /usr/bin/mspeed
 wget -q -O /usr/bin/mbandwith "https://raw.githubusercontent.com/hokagelegend2023/beta/main/update/menu-bandwith.sh" && chmod +x /usr/bin/mbandwith
+wget -O install-ss-plugin "https://raw.githubusercontent.com/fisabiliyusri/Mantap/main/shadowsocks-plugin/install-ss-plugin.sh"
+wget -O ssmenu "https://raw.githubusercontent.com/fisabiliyusri/Mantap/main/update/ssmenu.sh"
 echo -e " [INFO] Update Successfully"
 sleep 2
 exit
