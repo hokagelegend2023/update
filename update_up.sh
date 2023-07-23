@@ -36,6 +36,10 @@ wget -q -O /usr/bin/mspeed "https://raw.githubusercontent.com/hokagelegend2023/b
 wget -q -O /usr/bin/mbandwith "https://raw.githubusercontent.com/hokagelegend2023/beta/main/update/menu-bandwith.sh" && chmod +x /usr/bin/mbandwith
 wget -O install-ss-plugin "https://raw.githubusercontent.com/hokagelegend2023/beta/main/shadowsocks-plugin/install-ss-plugin.sh" && chmod +x /usr/bin/install-ss-plugin
 wget -q -O /usr/bin/ssmenu "https://raw.githubusercontent.com/hokagelegend2023/beta/main/update/ssmenu.sh" && chmod +x /usr/bin/ssmenu
+wget -q -O /usr/bin/addsstp "https://raw.githubusercontent.com/hokagelegend2023/beta/main/sstp/addsstp.sh" && chmod +x /usr/bin/addsstp
+wget -q -O /usr/bin/ceksstp "https://raw.githubusercontent.com/hokagelegend2023/beta/main/sstp/ceksstp.sh" && chmod +x /usr/bin/ceksstp
+wget -q -O /usr/bin/delsstp "https://raw.githubusercontent.com/hokagelegend2023/beta/main/sstp/delsstp.sh" && chmod +x /usr/bin/delsstp
+wget -q -O /usr/bin/renewsstp "https://raw.githubusercontent.com/hokagelegend2023/beta/main/sstp/renewsstp.sh" && chmod +x /usr/bin/renewsstp
 echo -e " [INFO] Update Successfully"
 sleep 2
 exit
