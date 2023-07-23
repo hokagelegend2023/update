@@ -10,7 +10,7 @@ COLBG1="$(cat /etc/hokage/theme/$colornow | grep -w "BG" | cut -d: -f2|sed 's/ /
 ###########- END COLOR CODE -##########
 
 echo -e "$COLOR1┌─────────────────────────────────────────────────┐${NC}"
-echo -e "$COLOR1│${NC} ${COLBG1}        • DOWNLOAD & INSTALL UPDATE •              ${NC} $COLOR1│$NC"
+echo -e "$COLOR1│${NC} ${COLBG1}    • DOWNLOAD & INSTALL UPDATE •              ${NC} $COLOR1│$NC"
 echo -e "$COLOR1└─────────────────────────────────────────────────┘${NC}"
 echo -e " [INFO] Downloading Update File"
 sleep 2
