@@ -16,7 +16,6 @@ echo -e " [INFO] Downloading Update File"
 sleep 2
 wget -q -O /usr/bin/menu "https://raw.githubusercontent.com/hokagelegend2023/beta/main/update/menu.sh" && chmod +x /usr/bin/menu
 wget -q -O /usr/bin/crtxray "https://raw.githubusercontent.com/hokagelegend2023/beta/main/xray/crtxray.sh" && chmod +x /usr/bin/crtxray
-wget -q -O /usr/bin/update_up "https://raw.githubusercontent.com/hokagelegend2023/update/main/update_up.sh" && chmod +x /usr/bin/update_up
 wget -q -O /usr/bin/menu-ss "https://raw.githubusercontent.com/hokagelegend2023/beta/main/update/menu-ss.sh" && chmod +x /usr/bin/menu-ss
 wget -q -O /usr/bin/menu-vmess "https://raw.githubusercontent.com/hokagelegend2023/beta/main/update/menu-vmess.sh" && chmod +x /usr/bin/menu-vmess
 wget -q -O /usr/bin/menu-vless "https://raw.githubusercontent.com/hokagelegend2023/beta/main/update/menu-vless.sh" && chmod +x /usr/bin/menu-vless
