@@ -41,7 +41,7 @@ wget -q -O /usr/bin/addsstp "https://raw.githubusercontent.com/hokagelegend2023/
 wget -q -O /usr/bin/ceksstp "https://raw.githubusercontent.com/hokagelegend2023/beta/main/sstp/ceksstp.sh" && chmod +x /usr/bin/ceksstp
 wget -q -O /usr/bin/delsstp "https://raw.githubusercontent.com/hokagelegend2023/beta/main/sstp/delsstp.sh" && chmod +x /usr/bin/delsstp
 wget -q -O /usr/bin/renewsstp "https://raw.githubusercontent.com/hokagelegend2023/beta/main/sstp/renewsstp.sh" && chmod +x /usr/bin/renewsstp
-wget -q -O /usr/bin/ m-tcp "https://raw.githubusercontent.com/givpn/AutoScriptXray/master/menu/tcp.sh" && chmod +x /usr/bin/tcp
+wget -q -O /usr/bin/m-tcp "https://raw.githubusercontent.com/hokagelegend2023/beta/main/update/tcp.sh" && chmod +x /usr/bin/m-tcp
 echo -e " [INFO] Update Successfully"
 sleep 2
 exit
