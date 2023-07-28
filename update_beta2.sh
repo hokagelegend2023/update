@@ -14,7 +14,7 @@ echo -e "$COLOR1│${NC} ${COLBG1}    • DOWNLOAD & INSTALL UPDATE •         
 echo -e "$COLOR1└─────────────────────────────────────────────────┘${NC}"
 echo -e " [INFO] Downloading Update File"
 sleep 2
-wget -q -O /usr/bin/menu "https://raw.githubusercontent.com/hokagelegend2023/beta/main/update/menu.sh" && chmod +x /usr/bin/menu
+wget -q -O /usr/bin/menu "https://raw.githubusercontent.com/hokagelegend2023/beta2/main/update/menu.sh" && chmod +x /usr/bin/menu
 
 echo -e " [INFO] Update Successfully"
 sleep 2
