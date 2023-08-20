@@ -29,7 +29,7 @@ echo -e " [INFO]  Update Versi "
 sleep 2
 cd /opt/
 rm -rf .ver
-wget -O .ver https://raw.githubusercontent.com/hokagelegend2023/akses/main/.versi 
+wget -O .ver https://raw.githubusercontent.com/hokagelegend2023/akses/main/.ver
 
 echo -e " [INFO] Update Successfully"
 sleep 2
