@@ -16,12 +16,12 @@ echo -e "$COLOR1│${NC} ${COLBG1}    • DOWNLOAD & INSTALL UPDATE •         
 echo -e "$COLOR1└─────────────────────────────────────────────────┘${NC}"
 echo -e " [INFO] Downloading Update File"
 sleep 2
-
 wget -O menu "https://raw.githubusercontent.com/hokagelegend2023/alpha3/main/menu/menu.sh"
 wget -O alpha3-update "https://raw.githubusercontent.com/hokagelegend2023/update/main/alpha3-update"
 chmod +x menu
 chmod +x alpha3-update
-cd
+sleep 2
+cd /opt/
 echo -e "$COLOR1┌─────────────────────────────────────────────────┐${NC}"
 echo -e "$COLOR1│${NC} ${COLBG1}    •UPDATE VERSI •                         ${NC} $COLOR1│$NC"
 echo -e "$COLOR1└─────────────────────────────────────────────────┘${NC}"
