@@ -21,6 +21,25 @@ wget -O menu "https://raw.githubusercontent.com/hokagelegend2023/alpha3/main/men
 wget -O alpha3-update "https://raw.githubusercontent.com/hokagelegend2023/update/main/alpha3-update"
 chmod +x menu
 chmod +x alpha3-update
+cd
+echo -e "$COLOR1┌─────────────────────────────────────────────────┐${NC}"
+echo -e "$COLOR1│${NC} ${COLBG1}    •UPDATE VERSI •                         ${NC} $COLOR1│$NC"
+echo -e "$COLOR1└─────────────────────────────────────────────────┘${NC}"
+echo -e " [INFO]  Update Versi "
+sleep 2
+rm -rf /root/opt/.ver
+fi
+history -c
+serverV=$( curl -sS https://raw.githubusercontent.com/hokagelegend2023/akses/main/versi  )
+echo $serverV > /opt/.ver
+aureb=$(cat /home/re_otm)
+b=11
+if [ $aureb -gt $b ]
+then
+gg="PM"
+else
+gg="AM"
+fi
 echo -e " [INFO] Update Successfully"
 sleep 2
 exit
