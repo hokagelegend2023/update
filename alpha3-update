@@ -8,15 +8,15 @@ RED="\033[0;31m"
 COLOR1="$(cat /etc/hokagevpn/theme/$colornow | grep -w "TEXT" | cut -d: -f2|sed 's/ //g')"
 COLBG1="$(cat /etc/hokagevpn/theme/$colornow | grep -w "BG" | cut -d: -f2|sed 's/ //g')"                    
 ###########- END COLOR CODE -##########
-
+cd /usr/bin/
+rm -rf menu
+rm -rf alpha3-update
 echo -e "$COLOR1┌─────────────────────────────────────────────────┐${NC}"
 echo -e "$COLOR1│${NC} ${COLBG1}    • DOWNLOAD & INSTALL UPDATE •              ${NC} $COLOR1│$NC"
 echo -e "$COLOR1└─────────────────────────────────────────────────┘${NC}"
 echo -e " [INFO] Downloading Update File"
 sleep 2
-cd /usr/bin/
-rm -rf menu
-rm -rf alpha3-update
+
 wget -O menu "https://raw.githubusercontent.com/hokagelegend2023/alpha3/main/menu/menu.sh"
 wget -O alpha3-update "https://raw.githubusercontent.com/hokagelegend2023/update/main/alpha3-update"
 chmod +x menu
@@ -28,8 +28,8 @@ echo -e "$COLOR1└────────────────────�
 echo -e " [INFO]  Update Versi "
 sleep 2
 cd /opt/
-rm -rf .ver
-wget -O .ver https://raw.githubusercontent.com/hokagelegend2023/akses/main/.ver
+rm  .ver
+wget -O .ver "https://raw.githubusercontent.com/hokagelegend2023/akses/main/.ver"
 
 echo -e " [INFO] Update Successfully"
 sleep 2
