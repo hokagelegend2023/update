@@ -27,7 +27,6 @@ echo -e "$COLOR1│${NC} ${COLBG1}    •UPDATE VERSI •                       
 echo -e "$COLOR1└─────────────────────────────────────────────────┘${NC}"
 echo -e " [INFO]  Update Versi "
 sleep 2
-cd /opt/
 rm .ver
 wget -O .ver "https://raw.githubusercontent.com/hokagelegend2023/akses/main/.ver"
 cd
