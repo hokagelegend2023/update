@@ -39,7 +39,6 @@ then
 gg="PM"
 else
 gg="AM"
-fi
 echo -e " [INFO] Update Successfully"
 sleep 2
 exit
