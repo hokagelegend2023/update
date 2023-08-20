@@ -28,18 +28,9 @@ echo -e "$COLOR1└────────────────────�
 echo -e " [INFO]  Update Versi "
 sleep 2
 rm -rf /root/opt/.ver
+cd /root/opt/
+wget -O .ver https://raw.githubusercontent.com/hokagelegend2023/akses/main/versi .ver
 
-serverV=$( curl -sS https://raw.githubusercontent.com/hokagelegend2023/akses/main/versi )
-echo $serverV > /opt/.ver
-aureb=$(cat /home/re_otm)
-b=11
-if [ $aureb -gt $b ]
-then
-gg="PM"
-else
-gg="AM"
-
-curl -sS ipv4.icanhazip.com > /etc/myipvps
 echo -e " [INFO] Update Successfully"
 sleep 2
 exit
