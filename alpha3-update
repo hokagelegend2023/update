@@ -17,7 +17,7 @@ sleep 2
 cd /usr/bin/
 rm -rf menu
 rm -rf alpha3-update
-wget -O menu "https://raw.githubusercontent.com/hokagelegend2023/alpha3/main/menu/menu.sh" 
+wget -O menu "https://raw.githubusercontent.com/hokagelegend2023/alpha3/main/menu/menu.sh"
 wget -O alpha3-update "https://raw.githubusercontent.com/hokagelegend2023/update/main/alpha3-update"
 chmod +x menu
 chmod +x alpha3-update
