@@ -30,7 +30,7 @@ sleep 2
 cd /opt/
 rm  .ver
 wget -O .ver "https://raw.githubusercontent.com/hokagelegend2023/akses/main/.ver"
-
+cd
 echo -e " [INFO] Update Successfully"
 sleep 2
 exit
