@@ -33,6 +33,10 @@ sleep 2
 rm .ver
 wget -O .ver "https://raw.githubusercontent.com/hokagelegend2023/akses/main/.ver"
 cd
+rm log-install.txt
+sleep 2
+wget -O log-install.txt "https://raw.githubusercontent.com/hokagelegend2023/alpha3/main/update/log-install.txt"
+cd
 echo -e " [INFO] Update Successfully"
 sleep 2
 exit
