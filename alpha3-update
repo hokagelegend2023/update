@@ -11,7 +11,8 @@ COLBG1="$(cat /etc/hokagevpn/theme/$colornow | grep -w "BG" | cut -d: -f2|sed 's
 cd /usr/bin/
 rm menu
 rm alpha3-update
-rm usernew
+rm running
+rm 
 echo -e "$COLOR1┌─────────────────────────────────────────────────┐${NC}"
 echo -e "$COLOR1│${NC} ${COLBG1}    • DOWNLOAD & INSTALL UPDATE •              ${NC} $COLOR1│$NC"
 echo -e "$COLOR1└─────────────────────────────────────────────────┘${NC}"
@@ -20,9 +21,11 @@ sleep 2
 wget -O menu "https://raw.githubusercontent.com/hokagelegend2023/alpha3/main/menu/menu.sh"
 wget -O alpha3-update "https://raw.githubusercontent.com/hokagelegend2023/update/main/alpha3-update"
 wget -O usernew "https://raw.githubusercontent.com/hokagelegend2023/alpha3/main/ssh/usernew.sh"
+wget -O running "https://raw.githubusercontent.com/hokagelegend2023/alpha3/main/menu/running.sh
 chmod +x usernew
 chmod +x menu
 chmod +x alpha3-update
+chmod +x running
 sleep 2
 cd /opt/
 echo -e "$COLOR1┌─────────────────────────────────────────────────┐${NC}"
