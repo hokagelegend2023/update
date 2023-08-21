@@ -13,6 +13,7 @@ rm menu
 rm alpha3-update
 rm running
 rm usernew
+rm restart
 echo -e "$COLOR1┌─────────────────────────────────────────────────┐${NC}"
 echo -e "$COLOR1│${NC} ${COLBG1}    • DOWNLOAD & INSTALL UPDATE •              ${NC} $COLOR1│$NC"
 echo -e "$COLOR1└─────────────────────────────────────────────────┘${NC}"
@@ -21,7 +22,9 @@ sleep 2
 wget -O menu "https://raw.githubusercontent.com/hokagelegend2023/alpha3/main/menu/menu.sh"
 wget -O alpha3-update "https://raw.githubusercontent.com/hokagelegend2023/update/main/alpha3-update"
 wget -O usernew "https://raw.githubusercontent.com/hokagelegend2023/alpha3/main/ssh/usernew.sh"
-wget -O running "https://raw.githubusercontent.com/hokagelegend2023/alpha3/main/menu/running.sh
+wget -O running "https://raw.githubusercontent.com/hokagelegend2023/alpha3/main/menu/running.sh"
+wget -O restart "https://raw.githubusercontent.com/hokagelegend2023/alpha3/main/menu/restart.sh"
+chmod +x restart
 chmod +x usernew
 chmod +x menu
 chmod +x alpha3-update
