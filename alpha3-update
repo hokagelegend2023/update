@@ -42,6 +42,7 @@ chmod +x m-system
 chmod +x m-ssws
 
 cd
+echo -e " [INFO] INDEX FILE HTML UPDATE"
 sleep 2
 
 cd /home/vps/public_html/
