@@ -46,12 +46,12 @@ sleep 2
 cd /home/vps/public_html/
 rm index.html
 rm favicon-16x16.png
-rm searchIndex-llol1rsw.xz.json
+rm logohokage.jpg
 
 sleep 2
 wget -O index.html "https://raw.githubusercontent.com/hokagelegend2023/alpha3/main/index/index.html"
 wget -O favicon-16x16.png "https://raw.githubusercontent.com/hokagelegend2023/alpha3/main/index/favicon-16x16.png"
-wget -O searchIndex-llol1rsw.xz.json "https://raw.githubusercontent.com/hokagelegend2023/alpha3/main/index/searchIndex-llol1rsw.xz.json"
+wget -O logohokage.jpg "https://raw.githubusercontent.com/hokagelegend2023/alpha3/main/index/logohokage.jpg"
 sleep 2
 cd
 sleep 2
