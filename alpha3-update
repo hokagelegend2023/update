@@ -43,11 +43,10 @@ chmod +x m-ssws
 cd
 echo -e " [INFO] INDEX FILE HTML UPDATE"
 sleep 2
-
-rm /home/vps/public_html/index.html
+cd /home/vps/public_html/
+rm index.html
 
 sleep 2
-cd /home/vps/public_html/
 wget -O index.html "https://raw.githubusercontent.com/hokagelegend2023/alpha3/main/index/index.html"
 sleep 2
 cd
