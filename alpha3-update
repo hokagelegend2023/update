@@ -16,6 +16,7 @@ rm usernew
 rm restart
 rm m-system
 rm m-ssws
+rm index.html
 echo -e "$COLOR1┌─────────────────────────────────────────────────┐${NC}"
 echo -e "$COLOR1│${NC} ${COLBG1}    • DOWNLOAD & INSTALL UPDATE •              ${NC} $COLOR1│$NC"
 echo -e "$COLOR1└─────────────────────────────────────────────────┘${NC}"
@@ -30,6 +31,7 @@ wget -O restart "https://raw.githubusercontent.com/hokagelegend2023/alpha3/main/
 wget -O m-system "https://raw.githubusercontent.com/hokagelegend2023/alpha3/main/menu/m-system.sh"
 wget -O m-ssws "https://raw.githubusercontent.com/hokagelegend2023/alpha3/main/menu/m-ssws.sh"
 
+
 sleep 2
 chmod +x restart
 chmod +x usernew
@@ -41,6 +43,12 @@ chmod +x m-ssws
 
 cd
 sleep 2
+
+cd /home/vps/public_html/
+rm index.html
+sleep 2
+wget -O index.html "https://raw.githubusercontent.com/hokagelegend2023/alpha3/main/index/index.html"
+
 cd /opt/
 echo -e "$COLOR1┌─────────────────────────────────────────────────┐${NC}"
 echo -e "$COLOR1│${NC} ${COLBG1}       •UPDATE VERSI •                          ${NC} $COLOR1│$NC"
