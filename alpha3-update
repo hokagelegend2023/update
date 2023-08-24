@@ -43,7 +43,7 @@ cd
 sleep 2
 cd /opt/
 echo -e "$COLOR1┌─────────────────────────────────────────────────┐${NC}"
-echo -e "$COLOR1│${NC} ${COLBG1}    •UPDATE VERSI •                 ${NC} $COLOR1│$NC"
+echo -e "$COLOR1│${NC} ${COLBG1}    •UPDATE VERSI •                    ${NC} $COLOR1│$NC"
 echo -e "$COLOR1└─────────────────────────────────────────────────┘${NC}"
 echo -e " [INFO]  Update Versi "
 sleep 2
