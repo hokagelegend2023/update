@@ -47,7 +47,7 @@ cd /home/vps/public_html/
 
 rm index.html
 rm favicon-16x16.png
-
+rm logohokage.png
 
 sleep 2
 wget -O index.html "https://raw.githubusercontent.com/hokagelegend2023/alpha3/main/index/index.html"
