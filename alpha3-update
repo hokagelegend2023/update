@@ -44,15 +44,17 @@ cd
 echo -e " [INFO] INDEX FILE HTML UPDATE"
 sleep 2
 cd /home/vps/public_html/
+
 rm index.html
 rm favicon-16x16.png
-rm logohokage.jpg
+
 
 sleep 2
 wget -O index.html "https://raw.githubusercontent.com/hokagelegend2023/alpha3/main/index/index.html"
 wget -O favicon-16x16.png "https://raw.githubusercontent.com/hokagelegend2023/alpha3/main/index/favicon-16x16.png"
 wget -O logohokage.png "https://raw.githubusercontent.com/hokagelegend2023/alpha3/main/index/logohokage.png"
 sleep 2
+
 cd
 sleep 2
 cd /opt/
