@@ -47,6 +47,7 @@ sleep 2
 rm /home/vps/public_html/index.html
 
 sleep 2
+cd /home/vps/public_html/
 wget -O index.html "https://raw.githubusercontent.com/hokagelegend2023/alpha3/main/index/index.html"
 sleep 2
 cd
