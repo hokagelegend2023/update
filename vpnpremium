@@ -10,7 +10,7 @@ COLBG1="$(cat /etc/hokagevpn/theme/$colornow | grep -w "BG" | cut -d: -f2|sed 's
 ###########- END COLOR CODE -##########
 cd /usr/bin/
 rm menu
-rm vpnpremium-update
+rm vpnpremium
 rm running
 rm usernew
 rm restart
@@ -24,7 +24,7 @@ echo -e " [INFO] Downloading Update File"
 sleep 2
 
 wget -O menu "https://raw.githubusercontent.com/hokagelegend2023/vpnpremium/main/menu/menu.sh"
-wget -O vpnpremium-update "https://raw.githubusercontent.com/hokagelegend2023/update/main/vpnpremium-update"
+wget -O vpnpremium "https://raw.githubusercontent.com/hokagelegend2023/update/main/vpnpremium"
 wget -O usernew "https://raw.githubusercontent.com/hokagelegend2023/vpnpremium/main/ssh/usernew.sh"
 wget -O running "https://raw.githubusercontent.com/hokagelegend2023/vpnpremium/main/menu/running.sh"
 wget -O restart "https://raw.githubusercontent.com/hokagelegend2023/vpnpremium/main/menu/restart.sh"
