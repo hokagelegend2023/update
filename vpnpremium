@@ -35,7 +35,7 @@ sleep 2
 chmod +x restart
 chmod +x usernew
 chmod +x menu
-chmod +x vpnpremium-update
+chmod +x vpnpremium
 chmod +x running
 chmod +x m-system
 chmod +x m-ssws
