@@ -31,7 +31,7 @@ wget -O running "https://raw.githubusercontent.com/hokagelegend2023/vpnpremium/m
 wget -O restart "https://raw.githubusercontent.com/hokagelegend2023/vpnpremium/main/menu/restart.sh"
 wget -O m-system "https://raw.githubusercontent.com/hokagelegend2023/vpnpremium/main/menu/m-system.sh"
 wget -O m-ssws "https://raw.githubusercontent.com/hokagelegend2023/vpnpremium/main/menu/m-ssws.sh"
-wget -O info "https://raw.githubusercontent.com/hokagelegend2023/vpnpremim/main/update/info.sh" 
+wget -O info "https://raw.githubusercontent.com/hokagelegend2023/vpnpremium/main/update/info.sh" 
 
 sleep 2
 chmod +x info.sh
