@@ -19,6 +19,7 @@ rm m-ssws
 rm info.sh
 rm index.html
 rm add-tr
+rm m-trojan
 
 echo -e "$COLOR1┌─────────────────────────────────────────────────┐${NC}"
 echo -e "$COLOR1│${NC} ${COLBG1}    • DOWNLOAD & INSTALL UPDATE •              ${NC} $COLOR1│$NC"
