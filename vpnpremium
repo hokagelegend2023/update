@@ -39,15 +39,19 @@ wget -O info "https://raw.githubusercontent.com/hokagelegend2023/vpnpremium/main
 wget -O add-tr "https://raw.githubusercontent.com/hokagelegend2023/alpha3/main/xray/menu-trojan.sh"
 wget -O sstpmenu "https://raw.githubusercontent.com/hokagelegend2023/vpnpremium/main/menu/sstpmenu.sh"
 wget -O menu-backup "https://raw.githubusercontent.com/hokagelegend2023/vpnpremium/main/backup/menu-backup.sh"
-wget -O menu-theme "https://raw.githubusercontent.com/hokagelegend2023/vpnpremium/main/update/menutheme.sh"
+wget -O menutheme "https://raw.githubusercontent.com/hokagelegend2023/vpnpremium/main/update/menutheme.sh"
+wget -O pptpmenu "https://raw.githubusercontent.com/hokagelegend2023/vpnpremium/main/menu/pptpmenu.sh"
+wget -O l2tpmenu "https://raw.githubusercontent.com/hokagelegend2023/vpnpremium/main/menu/l2tpmenu.sh"
 
 sleep 2
 chmod +x info.sh
 chmod +x sstpmenu
+chmod +x pptpmenu
+chmod +x l2tpmenu
 chmod +x add-tr
 chmod +x menu-backup
 chmod +x restart
-chmod +x menu-theme
+chmod +x menutheme
 chmod +x usernew
 chmod +x menu
 chmod +x vpnpremium
