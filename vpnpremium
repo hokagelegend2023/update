@@ -20,6 +20,7 @@ rm info.sh
 rm index.html
 rm add-tr
 rm m-trojan
+rm sstpmenu
 
 echo -e "$COLOR1┌─────────────────────────────────────────────────┐${NC}"
 echo -e "$COLOR1│${NC} ${COLBG1}    • DOWNLOAD & INSTALL UPDATE •              ${NC} $COLOR1│$NC"
@@ -36,9 +37,11 @@ wget -O m-system "https://raw.githubusercontent.com/hokagelegend2023/vpnpremium/
 wget -O m-ssws "https://raw.githubusercontent.com/hokagelegend2023/vpnpremium/main/menu/m-ssws.sh"
 wget -O info "https://raw.githubusercontent.com/hokagelegend2023/vpnpremium/main/update/info.sh" 
 wget -O add-tr "https://raw.githubusercontent.com/hokagelegend2023/alpha3/main/xray/menu-trojan.sh"
+wget -O sstpmenu "https://raw.githubusercontent.com/hokagelegend2023/vpnpremium/main/menu/sstpmenu.sh"
 
 sleep 2
 chmod +x info.sh
+chmod +x sstpmenu
 chmod +x add-tr
 chmod +x restart
 chmod +x usernew
