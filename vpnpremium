@@ -89,6 +89,7 @@ rm log-install.txt
 sleep 2
 wget -O log-install.txt "https://raw.githubusercontent.com/hokagelegend2023/vpnpremium/main/update/log-install.txt"
 cd
+rm vpnpremium
 echo -e " [INFO] Update Successfully"
 echo -e ""
 echo -e " [\e[31m•0\e[0m] \e[31mBACK TO MENU\033[0m"
