@@ -38,11 +38,13 @@ wget -O m-ssws "https://raw.githubusercontent.com/hokagelegend2023/vpnpremium/ma
 wget -O info "https://raw.githubusercontent.com/hokagelegend2023/vpnpremium/main/update/info.sh" 
 wget -O add-tr "https://raw.githubusercontent.com/hokagelegend2023/alpha3/main/xray/menu-trojan.sh"
 wget -O sstpmenu "https://raw.githubusercontent.com/hokagelegend2023/vpnpremium/main/menu/sstpmenu.sh"
+wget -O menu-backup "https://raw.githubusercontent.com/hokagelegend2023/vpnpremium/main/backup/menu-backup.sh"
 
 sleep 2
 chmod +x info.sh
 chmod +x sstpmenu
 chmod +x add-tr
+chmod +x menu-backup
 chmod +x restart
 chmod +x usernew
 chmod +x menu
