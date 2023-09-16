@@ -8,7 +8,9 @@ RED="\033[0;31m"
 COLOR1="$(cat /etc/hokagevpn/theme/$colornow | grep -w "TEXT" | cut -d: -f2|sed 's/ //g')"
 COLBG1="$(cat /etc/hokagevpn/theme/$colornow | grep -w "BG" | cut -d: -f2|sed 's/ //g')"                    
 ###########- END COLOR CODE -##########
+
 cd /usr/bin/
+
 rm menu
 rm vpnpremium
 rm running
@@ -31,7 +33,6 @@ echo -e " [INFO] Downloading Update File"
 sleep 2
 
 wget -O menu "https://raw.githubusercontent.com/hokagelegend2023/vpnpremium/main/menu/menu.sh"
-wget -O vpnpremium "https://raw.githubusercontent.com/hokagelegend2023/update/main/vpnpremium"
 wget -O running "https://raw.githubusercontent.com/hokagelegend2023/vpnpremium/main/menu/running.sh"
 wget -O restart "https://raw.githubusercontent.com/hokagelegend2023/vpnpremium/main/menu/restart.sh"
 wget -O m-system "https://raw.githubusercontent.com/hokagelegend2023/vpnpremium/main/menu/m-system.sh"
