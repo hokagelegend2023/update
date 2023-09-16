@@ -21,6 +21,8 @@ rm index.html
 rm add-tr
 rm m-trojan
 rm sstpmenu
+rm m-vmess
+rm m-vless
 
 echo -e "$COLOR1┌─────────────────────────────────────────────────┐${NC}"
 echo -e "$COLOR1│${NC} ${COLBG1}    • DOWNLOAD & INSTALL UPDATE •              ${NC} $COLOR1│$NC"
@@ -72,6 +74,11 @@ rm index.html
 rm favicon-16x16.png
 rm logohokage.png
 
+echo -e "$COLOR1┌─────────────────────────────────────────────────┐${NC}"
+echo -e "$COLOR1│${NC} ${COLBG1}    • UPDATE WEBSITE   •              ${NC} $COLOR1│$NC"
+echo -e "$COLOR1└─────────────────────────────────────────────────┘${NC}"
+echo -e " [INFO] Downloading Update File"
+sleep 2
 sleep 2
 wget -O index.html "https://raw.githubusercontent.com/hokagelegend2023/vpnpremium/main/index/index.html"
 wget -O favicon-16x16.png "https://raw.githubusercontent.com/hokagelegend2023/vpnpremium/main/index/favicon-16x16.png"
