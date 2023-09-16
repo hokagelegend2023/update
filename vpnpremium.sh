@@ -12,7 +12,6 @@ COLBG1="$(cat /etc/hokagevpn/theme/$colornow | grep -w "BG" | cut -d: -f2|sed 's
 cd /usr/bin/
 
 rm menu
-rm vpnpremium
 rm running
 rm usernew
 rm restart
@@ -61,7 +60,6 @@ chmod +x menu-backup
 chmod +x restart
 chmod +x menutheme
 chmod +x menu
-chmod +x vpnpremium
 chmod +x running
 chmod +x m-system
 chmod +x m-ssws
