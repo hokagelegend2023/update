@@ -30,7 +30,6 @@ sleep 2
 
 wget -O menu "https://raw.githubusercontent.com/hokagelegend2023/vpnpremium/main/menu/menu.sh"
 wget -O vpnpremium "https://raw.githubusercontent.com/hokagelegend2023/update/main/vpnpremium"
-wget -O usernew "https://raw.githubusercontent.com/hokagelegend2023/vpnpremium/main/ssh/usernew.sh"
 wget -O running "https://raw.githubusercontent.com/hokagelegend2023/vpnpremium/main/menu/running.sh"
 wget -O restart "https://raw.githubusercontent.com/hokagelegend2023/vpnpremium/main/menu/restart.sh"
 wget -O m-system "https://raw.githubusercontent.com/hokagelegend2023/vpnpremium/main/menu/m-system.sh"
@@ -42,8 +41,14 @@ wget -O menu-backup "https://raw.githubusercontent.com/hokagelegend2023/vpnpremi
 wget -O menutheme "https://raw.githubusercontent.com/hokagelegend2023/vpnpremium/main/update/menutheme.sh"
 wget -O pptpmenu "https://raw.githubusercontent.com/hokagelegend2023/vpnpremium/main/menu/pptpmenu.sh"
 wget -O l2tpmenu "https://raw.githubusercontent.com/hokagelegend2023/vpnpremium/main/menu/l2tpmenu.sh"
+wget -O m-sshovpn "https://raw.githubusercontent.com/hokagelegend2023/vpnpremium/main/menu/m-sshovpn.sh"
+wget -O m-vmess "https://raw.githubusercontent.com/hokagelegend2023/vpnpremium/main/menu/m-vmess.sh"
+wget -O m-vmess "https://raw.githubusercontent.com/hokagelegend2023/vpnpremium/main/menu/m-vless"
 
 sleep 2
+chmod +x m-vless
+chmod +x m-vmess
+chmod +x m-sshovpn
 chmod +x info.sh
 chmod +x sstpmenu
 chmod +x pptpmenu
@@ -52,7 +57,6 @@ chmod +x add-tr
 chmod +x menu-backup
 chmod +x restart
 chmod +x menutheme
-chmod +x usernew
 chmod +x menu
 chmod +x vpnpremium
 chmod +x running
