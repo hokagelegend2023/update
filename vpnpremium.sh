@@ -46,7 +46,7 @@ wget -O l2tpmenu "https://raw.githubusercontent.com/hokagelegend2023/vpnpremium/
 wget -O m-sshovpn "https://raw.githubusercontent.com/hokagelegend2023/vpnpremium/main/menu/m-sshovpn.sh"
 wget -O m-vmess "https://raw.githubusercontent.com/hokagelegend2023/vpnpremium/main/menu/m-vmess.sh"
 wget -O m-vless "https://raw.githubusercontent.com/hokagelegend2023/vpnpremium/main/menu/m-vless.sh"
-wget -O vpnpremium "https://raw.githubusercontent.com/hokagelegend2023/vpnpremium/main/menu/vpnpremium.sh"
+wget -O vpnpremium "https://raw.githubusercontent.com/hokagelegend2023/update/main/vpnpremium.sh"
 
 
 sleep 2
